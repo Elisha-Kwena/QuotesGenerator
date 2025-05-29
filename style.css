@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+}
+body{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: red;
+}
+.top{
+    width: 100%;
+    /* max-width: 500px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -100px;
+}
+.top img{
+    width: 60px;
+    margin-right: 10px;
+}
+.top h1{
+    font-size: 30px;
+    color: #fff;
+}
+.container{
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    height: 550px;
+    display: grid;
+    place-items: center;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0,0.7);
+}
+.quotecontainer{
+    position: absolute;
+    display: grid;
+    place-items: center;
+    width: 450px;
+    height: 450px;
+    background-color: red;
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0,0.7);
+}
+.quotebox{
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    place-items: center;
+}
+.quotebox p{
+    font-size: 20px;
+    color: #000;
+    line-height: 1.5;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
+.quotebox p.author{
+    font-style: italic;
+    font-weight: 900;
+    color: #000;
+}
+.quotecontainer button{
+    width: 90%;
+    padding: 20px;
+    cursor: pointer;
+    border: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0,0.7);
+}
+button:hover{
+    color: red;
+}
